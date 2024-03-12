@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/User/yolo/assignment/api">
+        <classes><class name="com.api.api.test.test_exbank">
+            <methods>
+                <include name="tc05_ValidateCreateUserWithValidRequest"/>
+                <include name="tc06_ValidateCreateUserWithInvalidRequest"/>
+                <include name="tc07_ValidateDepositWithValidRequest"/>
+                <include name="tc11_ValidateDepositWithInvalidRequest"/>
+                <include name="tc12_ValidateWithdrawWithValidRequest"/>
+                <include name="tc16_ValidateWithdrawWithInvalidRequest"/>
+                <include name="tc17_ValidateGetBalanceWithValidRequest"/>
+                <include name="tc23_ValidateSendWithValidRequest"/>
+            </methods>
+        </class>
+        </classes>
+    </test>
+</suite>

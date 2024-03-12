@@ -1,0 +1,97 @@
+{
+  "TestUserData": [
+    {
+      "id": "100001",
+      "name": "John",
+      "age": "15",
+      "email": "john@mail.com",
+      "accountNumber": "0000123",
+      "accountStatus": "ACTIVE",
+      "accountType": "Savings",
+      "currency": "USD"
+    }
+  ],
+  "TestInvalidUserData": [
+    {
+      "id": "100002",
+      "name": "John",
+      "age": "17",
+      "email": "john@mail.com",
+      "accountNumber": "0000123",
+      "accountStatus": "ACTIVE",
+      "accountType": "Savings",
+      "currency": "USD"
+    }
+  ],
+
+  "TestDepositData": [
+    {
+      "id": "deposit_valid_data",
+      "accountNumber": "100002",
+      "amount": "444",
+      "currency": "USD"
+    }
+  ],
+
+  "TestDepositInvalidData": [
+    {
+      "id": "deposit_invalid_data",
+      "accountNumber": "100002",
+      "amount": "444",
+      "currency": "USD"
+    }
+  ],
+  "TestWithdrawData": [
+    {
+      "id": "withdraw_valid_data",
+      "accountNumber": "100002",
+      "amount": "444",
+      "currency": "USD"
+    }
+  ],
+  "TestWithdrawInvalidData": [
+    {
+      "id": "withdraw_invalid_data",
+      "accountNumber": "100002",
+      "amount": "444",
+      "currency": "USD"
+    }
+  ],
+
+  "TestBalanceData": [
+    {
+      "id": "balance_valid_data",
+      "accountNumber": "100002",
+      "limit": "444",
+      "balance": "333",
+      "currency": "USD"
+    }
+  ],
+  "TestBalanceInvalidData": [
+    {
+      "id": "balance_invalid_data",
+      "accountNumber": "100002abc",
+      "limit": "333",
+      "balance": "233",
+      "currency": "USD"
+    }
+  ],
+  "TestSendData": [
+    {
+      "id": "balance_valid_data",
+      "sendAccountNumber": "100002",
+      "recieveAccountNumber": "100001",
+      "amount": "300",
+      "currency": "USD"
+    }
+  ],
+  "TestSendInvalidData": [
+    {
+      "id": "balance_invalid_data",
+      "sendAccountNumber": "100002abc",
+      "recieveAccountNumber": "100001",
+      "amount": "400",
+      "currency": "USD"
+    }
+  ]
+}
