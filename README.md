@@ -83,7 +83,7 @@ mvn test
 
 <h3> Setting up the project </h3>
 
-[test-api-ui-mobile repository](https://github.com/RochelleAbeywickrama/test-api-web-mobile.git)
+[exbank-api-test-automation](https://github.com/IsharaHewa/exbank-api-test-automation.git)
 
 Clone the project to your local and build the project successfully.
 
